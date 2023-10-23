@@ -1,0 +1,133 @@
+DO not mind spaces GUYS. I did that just to make it easy to read
+
+1) no list -> constructor -> []
+  Tests:
+
+    addToFront(X) throws no Exception
+    addToRear(X) throws no Exception
+    addAfter(X, Z) throws NoSuchElementException
+    add(X) throws no Exception
+    add(-1, X) throws IndexOutOfBoundsException
+    add(0, X) throws no Exception
+    add(1, X) throws IndexOutOfBoundsException
+    removeFirst() throws NoSuchElementException
+    removeLast() throws NoSuchElementException
+    remove(X) throws NoSuchElementException
+    remove(-1) throws IndexOutOfBoundsException
+    remove(0) throws IndexOutOfBoundsException
+    set(-1, X) throws IndexOutOfBoundsException
+    set(0, X) throws IndexOutOfBoundsException
+    get(-1) throws IndexOutOfBoundsException
+    get(0) throws IndexOutOfBoundsException
+    indexOf(X) returns -1
+    first() throws NoSuchElementException
+    last() throws NoSuchElementException
+    contains(X) returns false
+    isEmpty() returns true
+    size() returns 0
+    toString returns "[]"
+
+
+
+
+2) [] -> addToFront(A) -> [A]
+Tests:
+   	 *** A D D s ***
+
+    addToFront(X) throws no Exception
+    addToRear(X) throws no Exception
+    addAfter(X, A) throws no Exceptions
+    addAfter(X, Z) throws NoSuchElementException
+    add(X) throws no Exception
+    add(-1, X) throws IndexOutOfBoundsException
+    add(0, X) throws no Exception
+    add(1, X) throws no Exception
+    
+	*** R E M O V E ****
+
+    removeFirst() returns A
+    removeLast() returns A
+    remove(A) returns A
+    remove(X) throws NoSuchElementException
+    remove(-1) throws IndexOutOfBoundsException
+    remove(0) returns A
+    remove(1) throws IndexOutOfBoundsException
+
+	*** S E T T E  R s ***
+
+    set(-1, X) throws IndexOutOfBoundsException
+    set(0, X) throws no Exception
+    set(1, X) throws IndexOutOfBoundsException
+
+	*** G E T T E R s ***
+
+    get(0) returns A
+    get(-1) throws IndexOutOfBoundsException
+    get(1) throws IndexOutOfBoundsException
+   
+
+	*** I N D E X ***
+
+    indexOf(A) returns 0
+    indexOf(X) returns -1
+
+    first() returns A
+    last() returns A
+
+    contains(A) returns true
+    contains(X) returns false
+
+    isEmpty() returns false
+    size() returns 1
+    toString returns "[A]"
+
+
+
+3) [] -> addToRear(A) -> [A]
+
+	*** A D D s ***
+
+    addToFront(X) throws no Exception
+    addToRear(X) throws no Exception
+    addAfter(X, A) throws no Exceptions
+    addAfter(X, Z) throws NoSuchElementException
+    add(X) throws no Exception
+    add(-1, X) throws IndexOutOfBoundsException
+    add(0, X) throws no Exception
+    add(1, X) throws no Exception
+  
+	*** R E M O V E ****
+
+    removeFirst() returns A
+    removeLast() returns A
+    remove(A) returns A
+    remove(X) throws NoSuchElementException
+    remove(-1) throws IndexOutOfBoundsException
+    remove(0) returns A
+    remove(1) throws IndexOutOfBoundsException
+
+	*** S E T T E  R s ***
+
+    set(-1, X) throws IndexOutOfBoundsException
+    set(0, X) throws no Exception
+    set(1, X) throws IndexOutOfBoundsException
+
+	*** G E T T E R s ***
+
+    get(-1) throws IndexOutOfBoundsException
+    get(0) returns A
+    get(1) throws IndexOutOfBoundsException
+
+    indexOf(A) returns 0
+    indexOf(X) returns -1
+
+    first() returns A
+    last() returns A
+
+    contains(A) returns true
+    contains(X) returns false
+
+    isEmpty() returns false
+    size() returns 1
+    toString returns "[A]"
+
